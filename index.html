@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="StyleSheet" href="style.css">
+    <script src="myScript.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://static.vecteezy.com/system/resources/thumbnails/000/193/879/small/isometric-letter-A-typography-vector-design.jpg" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/4789366d85.js" crossorigin="anonymous"></script>
+    <title>TICTACTOE</title>
+  </head>
+  <body>
+     <header>
+        <div class="header">
+            <h1 class="Text" id="tex">TIC TAC TOE &#128512;</h1>
+        </div>
+     </header>
+     <div class="buttons" >
+      <div class="butto">
+        <button type="button" class="btn" id="1" onclick="clic(this.id)" disabled="true"></button>
+        <button type="button" class="btn" id="2" onclick="clic(this.id)" disabled="true"></button>
+        <button type="button" class="btn" id="3" onclick="clic(this.id)" disabled="true"></button>
+        <button type="button" class="btn" id="4" onclick="clic(this.id)" disabled="true"></button>
+        <button type="button" class="btn" id="5" onclick="clic(this.id)"  disabled="true"></button>
+        <button type="button" class="btn" id="6" onclick="clic(this.id)" disabled="true"></button>
+        <button type="button" class="btn" id="7" onclick="clic(this.id)" disabled="true")></button>
+        <button type="button" class="btn" id="8" onclick="clic(this.id)" disabled="true"></button>
+        <button type="button" class="btn" id="9" onclick="clic(this.id)" disabled="true"></button>
+      </div>
+      <div id="Chooses">
+         <h2  id="choose">Choose One</h2>
+         <button type="button" class="start_X" id="X" value="false" onclick=start(this.id) >X</button>
+         <button type="button" class="start_O" id="O" value="false" onclick=start(this.id) >O</button>
+        </div>
+   </div>
+     <div class="Extra_buttons">
+        <button type="button" class="Rules" onclick="window.location.href='rules.html';" >Rules</button>
+        <button type="reset" class="Restart" id="reload" onclick="document.location.reload()"><i class='fas'>&#xf2f9;</i> Restart</button>
+        <button type="button" class="Custom" onclick="window.location.href='help.html';" >Help</button>
+        
+     </div>
+   
+  </body>
+  
+</html>

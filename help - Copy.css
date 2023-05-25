@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+
+}
+.container {
+    width: 100%;
+    margin: 0px auto;
+}
+.main_container {
+    width: 100vw;
+    height: 100vh;
+    background: #0A2647;
+}
+.help_div {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:#BDCDD6;
+}
+.help {
+    font-size: 8vw;
+    color:#BDCDD6;
+}
+.faq {
+    padding-top: 20px;
+    padding-left: 14vw;
+    font-size: 40px;
+    padding-bottom: 20px;
+    color:#BDCDD6;
+}
+.box {
+    background-color: #fff;
+    border: 2px solid black;
+    width: 60vw;
+    padding: 10px;
+    margin-left: 14vw;
+    margin-bottom: 2px;
+}
+.box_p {
+    font-size: 20px;
+    font-weight: 300;
+}
+.box2 {
+    background-color: #fff;
+    border: 2px solid rgb(1, 1, 1);
+    width: 60vw;
+    padding: 10px;
+    margin-left: 14vw;
+}
+.box2_p {
+    font-size: 20px;
+    font-weight: 300;
+}
+.btn1 {
+    margin-left: 15vw;
+    margin-top: 20px;
+} 
+.btn1_a {
+    text-decoration: none;
+}
+.custum {
+    padding-left: 14vw;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:#BDCDD6;
+}
+.custum_p {
+    font-size: 40px;
+}
+.icon {
+    size: 50px;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+.mail_div {
+    padding-left: 40vw;
+}
+.mail {
+    color: black;
+    font-size: 40px;
+    display: inline-block;
+    transition: transform 1.5s;
+}
+.mail:hover {
+    color: #BDCDD6;
+    transform: translateY(-20px);
+}
+.github_div {
+    padding-left: 5vw;
+}
+.github {
+    color: black;
+    font-size: 40px;
+    transition: transform 1.5s;
+}
+.github:hover {
+    color: #BDCDD6;
+    transform: translateY(-20px);
+}

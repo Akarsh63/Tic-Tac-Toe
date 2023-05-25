@@ -1,0 +1,190 @@
+body{
+   /* background-color: rgb(227, 231, 236); */
+   background-image: url("https://global.aorus.com/upload/Downloads/F_20220227195351X1J3tx.JPG");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-color: rgb(1, 1, 85);
+   margin: 0%;
+   padding: 0%;
+}
+.header{
+    width: 100%;
+    margin:0px;
+    height:100px;
+    padding-top:10px;
+    background-color:rgb(1, 1, 85);
+    text-align: center;
+}
+.Text{
+
+    color:white;
+}
+.btn{
+    cursor:not-allowed;
+    font-size: 50px;
+    color:rgb(1, 1, 85);
+    border:2px solid rgb(1, 1, 85) ;
+    height:150px;
+    width:150px;
+}
+.butto{
+    margin-top:60px;
+    border:2px solid rgb(1, 1, 85) ;  
+    /* margin-left: calc(50%-225px); */
+    /* margin:auto; */
+    max-width: 451px;
+    max-height: 451px;
+    min-height: 450px;
+    min-width: 450px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn:hover{
+    background-color:beige;
+}
+
+#choose{
+    color:white;
+    text-shadow: 2px 4px 8px black ;
+    font-size: 25px;
+    padding-left:7px;
+}
+#Chooses{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:190px;
+    right: 0;
+    /* float: right; */
+    top:150px;
+    /* margin-left:15vw; */
+}
+.start_X,.start_O{
+    cursor: pointer;
+    font-size: 40px;
+    height:80px;
+    width:80px;
+    color:rgb(1, 1, 85);
+    margin-left:40px;
+    margin-bottom:30px;
+    background-color: white;
+}
+.buttons{
+    /* float: right; */
+    display: flex;
+    width:80%;
+    margin: auto;
+    flex-direction: row;
+    position: relative;
+    /* justify-content: center; */
+}
+.Extra_buttons{
+    display: flex;
+    flex-direction: row;
+    margin-top:80px;
+    justify-content: center;
+    gap:50px
+}
+.Rules{
+    height:45px;
+    width:90px;
+    text-align:center;
+    background-color: white;
+    color: rgb(1, 1, 85) ;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    transition-duration: 0.4s;
+}
+.Restart{
+    height:45px;
+    width:90px;
+    font-size: 16px;
+    background-color: white;
+    color: rgb(1, 1, 85) ;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.Custom{
+    text-decoration: none;
+    height:45px;
+    width:90px;
+    background-color: white;
+    color: rgb(1, 1, 85);
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    font-size: 20px;
+
+}
+.Rules:hover,.Restart:hover,.Custom:hover,.start_X:hover,.start_O:hover {
+       background-color: rgb(1, 1, 85);
+       color:white;
+}
+@media only screen and (max-width:992px){
+          .buttons{
+            flex-direction: column;
+            gap:50px
+            
+          }
+          #Chooses{
+            position: static;
+            /* margin: auto; */
+            flex-direction: row;
+            width:auto;
+          }
+          .Extra_buttons{
+            margin-bottom: 25px;
+            margin-top: 60px;
+          }
+          @media only screen and (max-width:586px){
+                 .buttons{
+                    width:100%;
+                 }
+                 .butto{
+                    max-width: 382px;
+                    max-height: 382px;
+                    min-height: 381px;
+                    min-width: 381px;
+                 }
+                 .btn{
+                    font-size: 40px;
+                    height:127px;
+                    width:127px;
+                }
+                .start_X,.start_O{
+                    font-size: 30px;
+                    height:75px;
+                    width:75px;
+                    color:rgb(1, 1, 85);
+                    margin-left:40px;
+                    margin-bottom:30px;
+                    background-color: white;
+                }
+                .Extra_buttons{
+                    margin-top:40px;
+                    gap:30px
+                }
+                @media only screen and (max-width:386px){
+                    .butto{
+                        max-width: 352px;
+                        max-height: 352px;
+                        min-height: 351px;
+                        min-width: 351px;
+                     }
+                     .btn{
+                        height:117px;
+                        width:117px;
+                    }
+                    .start_X,.start_O{
+                        height:65px;
+                        width:65px;
+                    }
+                }
+          }
+}
